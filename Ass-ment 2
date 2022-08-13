@@ -1,10 +1,17 @@
- #include <stdio.h>
+#include <stdio.h>
 int main() 
 {
     int i,j; 
     char ch='A';
     char ch1='a';
-    for(i=1;i<=5;i++)
+    int t;
+    scanf("%d ",&t);
+    while(t)
+    {
+     t--; 
+      int n;
+      scanf("%d",&n);
+    for(i=1;i<=n;i++)
     {
     for(j=1;j<=i;j++)
     {
@@ -13,6 +20,7 @@ int main()
     ch1++;
     }
     printf("\n");
+    }
     }
     return 0;
 }
